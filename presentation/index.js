@@ -75,7 +75,6 @@ export default class Presentation extends React.Component {
             </Heading>
             <BlockQuote>
               <Quote>How things are done around here</Quote>
-              <Quote>A decision making framework</Quote>
               <Cite>Chris</Cite>
             </BlockQuote>
           </Slide>
@@ -160,21 +159,26 @@ export default class Presentation extends React.Component {
           <Slide bgColor="primary">
             <Heading size={4} fit textColor="black">Gamified Leadership Hierarchy</Heading>
             <List>
-              <Appear><ListItem></ListItem></Appear>
+              <Appear><ListItem>If your team gets points, the leader get some</ListItem></Appear>
             </List>
           </Slide>
 
           <Slide bgColor="primary">
             <Heading size={4} fit textColor="black">Camera Quests</Heading>
+            <Heading size={6} textColor="black">Proof on Camera of achieving a cultural task</Heading>
             <List>
-              <Appear><ListItem></ListItem></Appear>
+              <Appear><ListItem>Taking a selfie with 3 executives</ListItem></Appear>
+              <Appear><ListItem>Participating in community service work</ListItem></Appear>
+              <Appear><ListItem>Take a pic with new employee</ListItem></Appear>
+              <Appear><ListItem>Take a pic with the fountain</ListItem></Appear>
             </List>
           </Slide>
 
           <Slide bgColor="primary">
             <Heading size={4} fit textColor="black">Bounty Board</Heading>
             <List>
-              <Appear><ListItem></ListItem></Appear>
+              <Appear><ListItem>Team Lead creates some optional tasks that anyone on the team can accomplish within a given time frame</ListItem></Appear>
+              <Appear><ListItem>If team member accomplishes they can earn extra CulturePoints</ListItem></Appear>
             </List>
           </Slide>
 
