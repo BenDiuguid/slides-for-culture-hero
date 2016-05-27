@@ -37,10 +37,18 @@ require("spectacle/lib/themes/default/index.css");
 
 
 const images = {
-  city: require("../assets/city.jpg"),
-  kat: require("../assets/kat.png"),
-  logo: require("../assets/formidable-logo.svg"),
-  markdown: require("../assets/markdown.png")
+  badges: require("../assets/badge-style.jpg"),
+  callingAllSuperHeros: require("../assets/d993f80c1f73fee0699a7a63f9136f27.jpg"),
+  bounties: require("../assets/mockup-bounties.png"),
+  cultureCommunications: require("../assets/mockup-culturecommunications.png"),
+  engagementDashboard: require("../assets/mockup-engagementdashboard.png"),
+  filebox: require("../assets/mockup-filebox.png"),
+  moduleBuilder: require("../assets/mockup-modulebuilder.png"),
+  profile: require("../assets/mockup-profile.png"),
+  taskProof: require("../assets/mockup-taskproof.png"),
+  topHeroes: require("../assets/mockup-topheroes.png"),
+  contentChains: require("../assets/mockup-contentchains.png"),
+  logo: require("../assets/culture-hero-logo3.png")
 };
 
 preloader(images);
